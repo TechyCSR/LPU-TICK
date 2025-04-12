@@ -2,6 +2,10 @@
 // Automatically helps with the login process at LPU internet login page
 // Developed by @TechyCSR (https://techycsr.me)
 // Copyright (c) 2025 TechyCSR. All rights reserved.
+//
+// DISCLAIMER: This project is not affiliated with, authorized by, or endorsed by 
+// Lovely Professional University. It is an independent, unofficial tool created 
+// for educational purposes only.
 
 // Error handling wrapper function
 function safeExecute(fn, errorMessage) {

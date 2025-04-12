@@ -1,6 +1,10 @@
 // Popup.js - Handles the extension popup UI interactions
 // Developed by @TechyCSR (https://techycsr.me)
 // Copyright (c) 2025 TechyCSR. All rights reserved.
+//
+// DISCLAIMER: This project is not affiliated with, authorized by, or endorsed by 
+// Lovely Professional University. It is an independent, unofficial tool created 
+// for educational purposes only.
 
 document.addEventListener('DOMContentLoaded', function() {
   const statusIndicator = document.getElementById('statusIndicator');
