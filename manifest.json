@@ -18,11 +18,21 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://internet.lpu.in/24online/servlet/E24onlineHTTPClient"],
+      "matches": [
+        "https://internet.lpu.in/24online/servlet/E24onlineHTTPClient",
+        "https://internet.lpu.in/24online/webpages/client.jsp"
+      ],
       "js": ["content.js"],
       "run_at": "document_end"
     }
   ],
   "permissions": ["storage"],
-  "host_permissions": ["https://internet.lpu.in/*"]
+  "host_permissions": ["https://internet.lpu.in/*"],
+  "author": "techycsr.me",
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/store_icon.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 } 

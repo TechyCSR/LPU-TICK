@@ -1,0 +1,26 @@
+{
+  "name": "lpu-internet-login-helper",
+  "version": "1.0.0",
+  "description": "Chrome extension that automates the login process for LPU internet portal",
+  "private": true,
+  "author": {
+    "name": "TechyCSR",
+    "url": "https://techycsr.me"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://techycsr.me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techycsr/lpu-internet-login-helper.git"
+  },
+  "scripts": {
+    "package": "zip -r lpu-internet-login-helper.zip manifest.json content.js popup.html popup.js icons/ README.md"
+  },
+  "keywords": [
+    "chrome-extension",
+    "lpu",
+    "login-automation",
+    "productivity",
+    "browser-extension"
+  ]
+} 
