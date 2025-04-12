@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "LPU Internet Login Helper",
+  "version": "1.0",
+  "description": "Automates the login process for LPU Internet. For educational purposes only.",
+  "icons": {
+    "16": "icons/icon16.svg",
+    "48": "icons/icon48.svg",
+    "128": "icons/icon128.svg"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.svg",
+      "48": "icons/icon48.svg",
+      "128": "icons/icon128.svg"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://internet.lpu.in/24online/servlet/E24onlineHTTPClient"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["storage"],
+  "host_permissions": ["https://internet.lpu.in/*"]
+} 

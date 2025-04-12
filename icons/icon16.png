@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect width="16" height="16" fill="#4a2c82" />
+  <circle cx="8" cy="8" r="5" fill="white" />
+  <text x="8" y="10" font-family="sans-serif" font-size="5" fill="#4a2c82" text-anchor="middle">LPU</text>
+</svg>
