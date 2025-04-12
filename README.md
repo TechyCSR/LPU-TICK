@@ -110,7 +110,7 @@
       <img src="https://img.shields.io/badge/1-Download-blue?style=flat-square" alt="Step 1">
     </td>
     <td>
-      Download and extract the ZIP file from <a href="https://github.com/techycsr/lpu-internet-login-helper/releases">Releases</a>
+      Download and extract the ZIP file from <a href="https://github.com/TechyCSR/LPU-TICK/releases">Releases</a>
     </td>
   </tr>
   <tr>
