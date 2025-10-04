@@ -1,6 +1,6 @@
 // LPU Internet Login Helper
 // Automatically helps with the login process at LPU internet login page
-// Developed by @TechyCSR (https://techycsr.me)
+// Developed by @TechyCSR (https://techycsr.dev)
 // Copyright (c) 2025 TechyCSR. All rights reserved.
 //
 // DISCLAIMER: This project is not affiliated with, authorized by, or endorsed by 
